@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Inter", serif;
+    background-color: #111;
+}
+
+.section1-container {
+    width: 550px;
+    background: #6943FF;
+    color: white;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-block: 30px;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+#answers-container {
+    width: 550px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding-block: 36px;
+    background-color: #1F2937;
+}
+
+#answers-container div {
+    width: 500px;
+    background-color: #273549;
+    border-radius: 5px;
+}
+
+#answers-container div h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+
+}
+
+#answers-container div p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
