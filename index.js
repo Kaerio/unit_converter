@@ -16,15 +16,15 @@ convertBtn.addEventListener("click", function(){
     answersContainer.innerHTML = `
         <div>
             <h2>Length (Meter/Feet)</h2>
-            <p id="length-el">${value} meters = ${(Number(value) * 3.281).toFixed(3)} feet | ${value} feet = ${(Number(value) / 3.281).toFixed(3)} meters</p>
+            <p>${value} meters = ${(Number(value) * 3.281).toFixed(3)} feet | ${value} feet = ${(Number(value) / 3.281).toFixed(3)} meters</p>
         </div>
         <div>
             <h2>Volume (Liters/Gallons)</h2>
-            <p id="volume-el">${value} liters = ${(Number(value) * 0.264).toFixed(3)} gallons | ${value} gallons = ${(Number(value) / 0.264).toFixed(3)} liters</p>
+            <p>${value} liters = ${(Number(value) * 0.264).toFixed(3)} gallons | ${value} gallons = ${(Number(value) / 0.264).toFixed(3)} liters</p>
         </div>
         <div>
             <h2>Mass (Kilograms/Pounds)</h2>
-            <p id="mass-el">${value} kilos = ${(Number(value) * 2.204).toFixed(3)} pounds | ${value} pounds = ${(Number(value) / 2.204).toFixed(3)} kilos</p>
+            <p>${value} kilos = ${(Number(value) * 2.204).toFixed(3)} pounds | ${value} pounds = ${(Number(value) / 2.204).toFixed(3)} kilos</p>
         </div>
     `    
 })
